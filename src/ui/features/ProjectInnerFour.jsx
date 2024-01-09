@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { SliderProps } from "@/src/common/sliderProps";
+import { SliderProps } from "@/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-import ImageView from "@/src/ui/features/ImageView";
+import ImageView from "@/ui/features/ImageView";
 
 const ProjectInner4 = ({ postData, prev, next }) => {
     return (

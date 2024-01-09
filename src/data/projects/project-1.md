@@ -1,8 +1,8 @@
 ---
 #preview
-title: Interior design studio
+title: VMEX Finance
 image: /img/works/1.jpg
-category: TECHNOLOGY
+category: Blockchain
 date: may 24 2023
 
 #params

@@ -29,20 +29,6 @@
                 "children": []
             },
             {
-                "label": "Blog",
-                "link": "/blog",
-                "children": [
-                    {
-                        "label": "Blog list",
-                        "link": "/blog"
-                    },
-                    {
-                        "label": "Publication",
-                        "link": "/blog/play-to-your-strength-and-supercharge-your-business-4"
-                    }
-                ]
-            },
-            {
                 "label": "Contact",
                 "link": "/contact",
                 "children": 0
@@ -70,10 +56,6 @@
             {
                 "label": "Contact",
                 "link": "/contact"
-            },
-            {
-                "label": "Blog",
-                "link": "/blog"
             }
         ]
     },

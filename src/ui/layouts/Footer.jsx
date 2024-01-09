@@ -1,6 +1,6 @@
 import Link from "next/link";
 import AppData from "@/data/app.json";
-import ArrowIcon from "@/src/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/ui/layouts/icons/Arrow";
 import { useRouter } from 'next/router';
 
 const Footer = ( { extraClass } ) => {
@@ -34,13 +34,13 @@ const Footer = ( { extraClass } ) => {
                     <div className="col-lg-12 mil-mb-60">
 
                         <div className="mil-vert-between">
-                            <div className="mil-mb-30">
+                            {/* <div className="mil-mb-30">
                                 <ul className="mil-social-icons mil-up">
                                     {AppData.social.map((item, key) => (
                                     <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank" className="social-icon"><i className={item.icon} /></a></li>
                                     ))}
                                 </ul>
-                            </div>
+                            </div> */}
                             <p className="mil-light-soft mil-up">{AppData.footer.copy}</p>
                         </div>
 

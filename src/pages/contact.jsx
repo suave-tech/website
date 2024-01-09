@@ -1,9 +1,9 @@
-import PageBanner from "@/src/ui/components/PageBanner";
-import Layouts from "@/src/ui/layouts/Layouts";
+import PageBanner from "@/ui/components/PageBanner";
+import Layouts from "@/ui/layouts/Layouts";
 import { Formik } from 'formik';
-import AppData from "@data/app.json";
+import AppData from "@/data/app.json";
 
-import ArrowIcon from "@/src/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/ui/layouts/icons/Arrow";
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ImageView from "@/src/ui/features/ImageView";
+import ImageView from "@/ui/features/ImageView";
 
 const ProjectInner2 = ({ postData, prev, next }) => {
     return (

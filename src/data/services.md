@@ -1,11 +1,11 @@
 ---
 #preview details
-title: "Branding and Identity Design"
-preview_title: "Branding and <br>Identity Design"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+title: "Services"
+preview_title: "Tech is complicated. <br>We make it simple."
+short: "Our developer shop is a team of professionals focused on providing creative solutions."
 
 #full details
-introTitle: Branding<br> and <span class="mil-thin">Identity Design</span>
+introTitle: <span class="mil-thin">Tech is complicated.</span> <br /> We make it simple.
 
 description:
   title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>

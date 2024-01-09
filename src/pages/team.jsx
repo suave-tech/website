@@ -1,7 +1,7 @@
-import Layouts from "@/src/ui/layouts/Layouts";
+import Layouts from "@/ui/layouts/Layouts";
 
-import PageBanner from "@/src/ui/components/PageBanner";
-import CallToActionSection from "@/src/ui/components/sections/CallToAction";
+import PageBanner from "@/ui/components/PageBanner";
+import CallToActionSection from "@/ui/components/sections/CallToAction";
 
 const TeamData = [
     {

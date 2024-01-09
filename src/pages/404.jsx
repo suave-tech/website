@@ -1,8 +1,8 @@
-import Layouts from "@/src/ui/layouts/Layouts";
+import Layouts from "@/ui/layouts/Layouts";
 import Link from "next/link";
 
-import ArrowIcon from "@/src/ui/layouts/icons/Arrow";
-import Pentagon from "@/src/ui/layouts/icons/Pentagon";
+import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import Pentagon from "@/ui/layouts/icons/Pentagon";
 
 const E404 = () => {
   return (

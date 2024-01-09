@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import LinesIcon from "@/src/ui/layouts/icons/Lines";
+import LinesIcon from "@/ui/layouts/icons/Lines";
 
 const ProjectsGrid = ({ projects, columns }) => {
     const projectRows = [];

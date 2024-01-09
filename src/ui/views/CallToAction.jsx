@@ -1,7 +1,7 @@
-import Data from "@data/sections/call-to-action.json";
+import Data from "@/data/sections/call-to-action.json";
 import Link from "next/link";
 
-import ArrowIcon from "@/src/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/ui/layouts/icons/Arrow";
 
 const CallToActionSection = ( { bg } ) => {
   return (

@@ -7,7 +7,7 @@ import { getSortedPostsData } from "@/library/posts";
 import HeroSection from "@/ui/views/Hero"
 import AboutSection from "@/ui/views/About";
 import ServicesSection from "@/ui/views/Services";
-import LatestPostsSection from "@/ui/views/LatestPosts";
+// import LatestPostsSection from "@/ui/views/LatestPosts";
 
 const TestimonialSlider = dynamic( () => import("@/ui/sliders/Testimonial"), { ssr: false } );
 
@@ -18,7 +18,7 @@ const Home = (props) => {
       <AboutSection />
       <ServicesSection />
       <TestimonialSlider />
-      <LatestPostsSection posts={props.posts} />
+      {/* <LatestPostsSection posts={props.posts} /> */}
     </Layouts>
   );
 };

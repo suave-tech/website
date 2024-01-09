@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Link from "next/link";
 import { useRouter } from 'next/router';
-import AppData from "@data/app.json";
+import AppData from "@/data/app.json";
 
-import ArrowIcon from "@/src/ui/layouts/icons/Arrow";
-import Pentagon from "@/src/ui/layouts/icons/Pentagon";
+import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import Pentagon from "@/ui/layouts/icons/Pentagon";
 
 const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
   const { asPath } = useRouter();

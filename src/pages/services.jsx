@@ -24,7 +24,7 @@ const Services = ( { data: servicesData } ) => {
       <PageBanner 
         pageTitle={servicesData.introTitle} 
         breadTitle={servicesData.title} 
-        anchorLabel={"About service"} 
+        anchorLabel={"see more"} 
         anchorLink={"#service"} 
       />
 

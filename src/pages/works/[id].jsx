@@ -1,17 +1,17 @@
-import Layouts from "@/src/ui/layouts/Layouts";
+import Layouts from "@/ui/layouts/Layouts";
 
 import Link from "next/link";
 
 import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@library/projects";
 
-import PageBanner from "@/src/ui/components/PageBanner";
-import CallToActionSection from "@/src/ui/components/sections/CallToAction";
-import ProjectInnerOne from "@/src/ui/components/ProjectInnerOne";
-import ProjectInnerTwo from "@/src/ui/components/ProjectInnerTwo";
-import ProjectInnerThree from "@/src/ui/components/ProjectInnerThree";
-import ProjectInnerFour from "@/src/ui/components/ProjectInnerFour";
-import ProjectInnerFive from "@/src/ui/components/ProjectInnerFive";
-import ProjectInnerSix from "@/src/ui/components/ProjectInnerSix";
+import PageBanner from "@/ui/components/PageBanner";
+import CallToActionSection from "@/ui/components/sections/CallToAction";
+import ProjectInnerOne from "@/ui/components/ProjectInnerOne";
+import ProjectInnerTwo from "@/ui/components/ProjectInnerTwo";
+import ProjectInnerThree from "@/ui/components/ProjectInnerThree";
+import ProjectInnerFour from "@/ui/components/ProjectInnerFour";
+import ProjectInnerFive from "@/ui/components/ProjectInnerFive";
+import ProjectInnerSix from "@/ui/components/ProjectInnerSix";
 
 const ProjectDetail = ( props ) => {
   
