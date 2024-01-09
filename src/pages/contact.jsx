@@ -1,4 +1,4 @@
-import PageBanner from "@/ui/components/PageBanner";
+import PageBanner from "@/ui/features/PageBanner";
 import Layouts from "@/ui/layouts/Layouts";
 import { Formik } from 'formik';
 import AppData from "@/data/app.json";
