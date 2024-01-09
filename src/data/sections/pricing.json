@@ -1,5 +1,5 @@
 {
-    "title": "Reasonable <span class=\"mil-thin\">prices</span> <br/>for innovative <span class=\"mil-thin\">solutions</span>",
+    "title": "<span class=\"mil-thin\">We'll work with</span> you <br/><span class=\"mil-thin\">to build</span> innovative solutions.",
     "description": "At our agency, we have a unique approach to web design and development. <br/>We believe in creating in terms of user experience, functionality.",
     "items": [
         {
@@ -25,15 +25,6 @@
             "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
             "price": {
                 "value": "49",
-                "symbol": "$"
-            },
-            "link": "/contact"
-        },
-        {
-            "title": "Exquisite Design Concepts <br> for Discerning Clients",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
-            "price": {
-                "value": "199",
                 "symbol": "$"
             },
             "link": "/contact"

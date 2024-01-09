@@ -3,7 +3,7 @@ import { SliderProps } from "@/common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ImageView from "@/ui/features/ImageView";
 
-const ProjectInner5 = ({ postData, prev, next }) => {
+const ProjectImages = ({ postData, prev, next }) => {
     return (
         <>
         {/* project */}
@@ -80,13 +80,13 @@ const ProjectInner5 = ({ postData, prev, next }) => {
                 </>
                 }
                 <div className="mil-works-nav mil-up">
-                    <Link href={(prev.id != 0 && prev.id != undefined) ? `/projects/${prev.id}` : ""} className={(prev.id != 0 && prev.id != undefined) ? "mil-link mil-dark mil-arrow-place mil-icon-left" : "mil-link mil-dark mil-arrow-place mil-icon-left mil-disabled"}>
+                    <Link href={(prev.id != 0 && prev.id != undefined) ? `/works/${prev.id}` : ""} className={(prev.id != 0 && prev.id != undefined) ? "mil-link mil-dark mil-arrow-place mil-icon-left" : "mil-link mil-dark mil-arrow-place mil-icon-left mil-disabled"}>
                         <span>Prev project</span>
                     </Link>
-                    <Link href="/projects" className="mil-link mil-dark">
+                    <Link href="/works" className="mil-link mil-dark">
                         <span>All projects</span>
                     </Link>
-                    <Link href={(next.id != 0 && next.id != undefined) ? `/projects/${next.id}` : ""} className={(next.id != 0 && next.id != undefined) ? "mil-link mil-dark mil-arrow-place" : "mil-link mil-dark mil-arrow-place mil-disabled"}>
+                    <Link href={(next.id != 0 && next.id != undefined) ? `/works/${next.id}` : ""} className={(next.id != 0 && next.id != undefined) ? "mil-link mil-dark mil-arrow-place" : "mil-link mil-dark mil-arrow-place mil-disabled"}>
                         <span>Next project</span>
                     </Link>
                 </div>
@@ -98,4 +98,4 @@ const ProjectInner5 = ({ postData, prev, next }) => {
         </>
     );
 };
-export default ProjectInner5;
+export default ProjectImages;

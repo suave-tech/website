@@ -11,7 +11,7 @@ description:
   title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
   content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
   button:
-    link: /projects
+    link: /works
     label: View works
 
 list:

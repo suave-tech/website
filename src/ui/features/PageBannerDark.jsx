@@ -40,9 +40,9 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
                   <Link href="/blog">Blog</Link>
                 </li>
                 }
-                {asPath.indexOf('/projects/') != -1 &&
+                {asPath.indexOf('/works/') != -1 &&
                 <li>
-                  <Link href="/projects">Projects</Link>
+                  <Link href="/works">Portfolio</Link>
                 </li>
                 }
                 {asPath.indexOf('/services/') != -1 &&

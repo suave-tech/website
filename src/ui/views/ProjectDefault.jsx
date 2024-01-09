@@ -1,7 +1,8 @@
 import Link from "next/link";
 import ImageView from "@/ui/features/ImageView";
+import Button from "../components/Button";
 
-const ProjectInner2 = ({ postData, prev, next }) => {
+const ProjectDefault = ({ postData, prev, next }) => {
     return (
     <>
     {/* project */}
@@ -14,7 +15,10 @@ const ProjectInner2 = ({ postData, prev, next }) => {
                         {typeof postData.details != "undefined" &&
                         <ul className="mil-service-list mil-dark mil-mb-60">
                             {postData.details.map((item, key) => (
-                            <li className="mil-up" key={`project-details-item-${key}`}>{item.label} &nbsp;<span className="mil-dark">{item.value}</span></li>
+                                <li className="mil-up" key={`project-details-item-${key}`}>
+                                    <span className="mil-accent">{item.label}</span>
+                                    <span className="mil-dark">{item.value}</span>
+                                </li>
                             ))}
                         </ul>
                         }
@@ -31,9 +35,9 @@ const ProjectInner2 = ({ postData, prev, next }) => {
                         }
 
                         {typeof postData.demoLink != "undefined" &&
-                        <a data-no-swup href={postData.demoLink} target="_blank" className="mil-link mil-dark mil-up mil-arrow-place">
-                            <span>Visit website</span>
-                        </a>
+                        <Button link={postData.demoLink}>
+                            Visit Website
+                        </Button>
                         }
                     </div>
 
@@ -58,13 +62,13 @@ const ProjectInner2 = ({ postData, prev, next }) => {
                 </div>
             </div>
             <div className="mil-works-nav mil-up">
-                <Link href={(prev.id != 0 && prev.id != undefined) ? `/projects/${prev.id}` : ""} className={(prev.id != 0 && prev.id != undefined) ? "mil-link mil-dark mil-arrow-place mil-icon-left" : "mil-link mil-dark mil-arrow-place mil-icon-left mil-disabled"}>
+                <Link href={(prev.id != 0 && prev.id != undefined) ? `/works/${prev.id}` : ""} className={(prev.id != 0 && prev.id != undefined) ? "mil-link mil-dark mil-arrow-place mil-icon-left" : "mil-link mil-dark mil-arrow-place mil-icon-left mil-disabled"}>
                     <span>Prev project</span>
                 </Link>
-                <Link href="/projects" className="mil-link mil-dark">
+                <Link href="/works" className="mil-link mil-dark">
                     <span>All projects</span>
                 </Link>
-                <Link href={(next.id != 0 && next.id != undefined) ? `/projects/${next.id}` : ""} className={(next.id != 0 && next.id != undefined) ? "mil-link mil-dark mil-arrow-place" : "mil-link mil-dark mil-arrow-place mil-disabled"}>
+                <Link href={(next.id != 0 && next.id != undefined) ? `/works/${next.id}` : ""} className={(next.id != 0 && next.id != undefined) ? "mil-link mil-dark mil-arrow-place" : "mil-link mil-dark mil-arrow-place mil-disabled"}>
                     <span>Next project</span>
                 </Link>
             </div>
@@ -76,4 +80,4 @@ const ProjectInner2 = ({ postData, prev, next }) => {
     </>
     )
 };
-export default ProjectInner2;
+export default ProjectDefault;

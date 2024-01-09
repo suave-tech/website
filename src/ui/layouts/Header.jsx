@@ -99,12 +99,12 @@ const Header = ({ extraClass }) => {
                                       <h6 className="mil-muted mil-mb-30">Projects</h6>
 
                                       <ul className="mil-menu-list">
-                                          <li><Link href="/projects/project-1" className="mil-light-soft">PintSwap</Link></li>
-                                          <li><Link href="/projects/project-6" className="mil-light-soft">DataEarn</Link></li>
-                                          <li><Link href="/projects/project-2" className="mil-light-soft">VMEX Finance</Link></li>
-                                          <li><Link href="/projects/project-4" className="mil-light-soft">SimpleTalk AI</Link></li>
-                                          <li><Link href="/projects/project-5" className="mil-light-soft">Transformation Factory</Link></li>
-                                          <li><Link href="/projects/project-3" className="mil-light-soft">Raycon</Link></li>
+                                          <li><Link href="/works/project-1" className="mil-light-soft">PintSwap</Link></li>
+                                          <li><Link href="/works/project-6" className="mil-light-soft">DataEarn</Link></li>
+                                          <li><Link href="/works/project-2" className="mil-light-soft">VMEX Finance</Link></li>
+                                          <li><Link href="/works/project-4" className="mil-light-soft">SimpleTalk AI</Link></li>
+                                          <li><Link href="/works/project-5" className="mil-light-soft">Transformation Factory</Link></li>
+                                          <li><Link href="/works/project-3" className="mil-light-soft">Raycon</Link></li>
                                       </ul>
 
                                   </div>

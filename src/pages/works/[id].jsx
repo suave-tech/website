@@ -4,12 +4,8 @@ import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@/libr
 
 import PageBanner from "@/ui/features/PageBanner";
 import CallToActionSection from "@/ui/views/CallToAction";
-import ProjectInnerOne from "@/ui/features/ProjectInnerOne";
-import ProjectInnerTwo from "@/ui/features/ProjectInnerTwo";
-import ProjectInnerThree from "@/ui/features/ProjectInnerThree";
-import ProjectInnerFour from "@/ui/features/ProjectInnerFour";
-import ProjectInnerFive from "@/ui/features/ProjectInnerFive";
-import ProjectInnerSix from "@/ui/features/ProjectInnerSix";
+import ProjectDefault from "@/ui/views/ProjectDefault";
+import ProjectImages from "@/ui/views/ProjectImages";
 
 const ProjectDetail = ( props ) => {
   
@@ -41,28 +37,22 @@ const ProjectDetail = ( props ) => {
     }
   });
 
+  function renderView() {
+    switch (postData.layout) {
+      case 'images': return (
+        <ProjectImages postData={postData} prev={prev} next={next} />
+      )
+      default: return (
+        <ProjectDefault postData={postData} prev={prev} next={next} />
+      )
+    }
+  }
+
   return (
     <Layouts>
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Read more"} anchorLink={"#project"} />
 
-      {postData.layout == 'one' &&
-        <ProjectInnerOne postData={postData} prev={prev} next={next} />
-      }
-      {postData.layout == 'two' &&
-        <ProjectInnerTwo postData={postData} prev={prev} next={next} />
-      }
-      {postData.layout == 'three' &&
-        <ProjectInnerThree postData={postData} prev={prev} next={next} />
-      }
-      {postData.layout == 'four' &&
-        <ProjectInnerFour postData={postData} prev={prev} next={next} />
-      }
-      {postData.layout == 'five' &&
-        <ProjectInnerFive postData={postData} prev={prev} next={next} />
-      }
-      {postData.layout == 'six' &&
-        <ProjectInnerSix postData={postData} prev={prev} next={next} />
-      }
+      {renderView()}
 
       <CallToActionSection />
 
