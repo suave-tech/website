@@ -1,8 +1,8 @@
-import Layouts from "@/src/ui/layouts/Layouts";
-import { getAllPostsIds, getPostData, getRelatedPosts } from "@library/posts";
-import Date from '@library/date';
-import PageBanner from "@/src/ui/components/PageBanner";
-import RelatedPostsSection from "@/src/ui/components/sections/RelatedPosts";
+import Layouts from "@/ui/layouts/Layouts";
+import { getAllPostsIds, getPostData, getRelatedPosts } from "@/library/posts";
+import Date from '@/library/date';
+import PageBanner from "@/ui/features/PageBanner";
+import RelatedPostsSection from "@/ui/views/RelatedPosts";
 
 const PostsDetail = ( props ) => {
   

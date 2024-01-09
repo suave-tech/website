@@ -24,7 +24,7 @@ const E404 = () => {
                       <h4 className="mil-404-text mil-dark mil-mb-60">Oops! Something went wrong :(</h4>
 
                       <Link href="/" className="mil-button mil-arrow-place">
-                        <span>Back to homepage</span>
+                        <span>Back to home</span>
                         <ArrowIcon />
                       </Link>
                   </div>

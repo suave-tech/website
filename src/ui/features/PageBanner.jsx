@@ -33,7 +33,7 @@ const PageBanner = ({ pageTitle, breadTitle, anchorLabel, anchorLink = 0, paddin
           </div>
           <div className="container">
             <ul className={align == "center" ? "mil-breadcrumbs mil-center mil-mb-60" : "mil-breadcrumbs mil-mb-60"}>
-              <li><Link href="/">Homepage</Link></li>
+              <li><Link href="/">Home</Link></li>
               {asPath.indexOf('/blog/') != -1 &&
               <li>
                 <Link href="/blog">Blog</Link>

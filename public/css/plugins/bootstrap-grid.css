@@ -1290,6 +1290,10 @@
   justify-content: space-between !important;
 }
 
+.w-fit {
+  width: fit-content !important;
+}
+
 .justify-content-around {
   justify-content: space-around !important;
 }

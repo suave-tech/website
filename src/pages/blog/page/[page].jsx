@@ -1,13 +1,12 @@
-import PaginatedBlog from '@/src/ui/components/PaginatedBlog'
-import Pagination from '@/src/ui/components/Pagination'
+import PaginatedBlog from '@/ui/features/PaginatedBlog'
+import Pagination from '@/ui/features/Pagination'
 import Link from "next/link";
 
-import PageBanner from "@/src/ui/components/PageBanner";
-import SubscribeSection from "@/src/ui/components/sections/Subscribe";
-import Layouts from "@/src/ui/layouts/Layouts";
+import PageBanner from "@/ui/features/PageBanner";
+import Layouts from "@/ui/layouts/Layouts";
 
-import { getSortedCategoriesData } from "@library/categories";
-import { getPaginatedPostsData } from "@library/posts";
+import { getSortedCategoriesData } from "@/library/categories";
+import { getPaginatedPostsData } from "@/library/posts";
 
 export const PER_PAGE = 8
 
@@ -51,8 +50,6 @@ const Blog = ( { posts, currentPage, totalPosts, categories } ) => {
         </div>
       </section>
       {/* blog end */}
-
-      <SubscribeSection />
       
     </Layouts>
   );

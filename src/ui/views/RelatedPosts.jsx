@@ -1,5 +1,5 @@
-import Data from "@data/sections/related-posts.json";
-import Date from '@library/date';
+import Data from "@/data/sections/related-posts.json";
+import Date from '@/library/date';
 import Link from "next/link";
 
 const RelatedPostsSection = ( Content ) => {

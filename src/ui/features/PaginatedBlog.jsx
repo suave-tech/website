@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Date from '@library/date';
+import Date from '@/library/date';
 
 const PaginationPage = ({ items }) => {
     return (

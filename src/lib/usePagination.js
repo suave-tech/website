@@ -1,4 +1,4 @@
-import { dotts } from '../ui/components/Pagination'
+import { dotts } from '../ui/features/Pagination'
 
 const getPages = (length, inc = 1) =>
   Array.from({ length }, (_, i) => i + inc)

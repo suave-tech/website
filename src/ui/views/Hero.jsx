@@ -1,7 +1,8 @@
-import Data from "@/data/sections/hero-1.json";
+import Data from "@/data/sections/hero.json";
 import Link from "next/link";
 import ArrowIcon from "@/ui/layouts/icons/Arrow";
 import Pentagon from "@/ui/layouts/icons/Pentagon";
+import Button from "@/ui/components/Button";
 
 const Hero = () => {
     return (
@@ -33,15 +34,13 @@ const Hero = () => {
                                 </div>
                             </div>
 
-                            <Link href={Data.button1.link} className="mil-button mil-arrow-place mil-btn-space">
-                                <span>{Data.button1.label}</span>
-                                <ArrowIcon />
-                            </Link>
+                            <Button link={Data.button1.link}>
+                                {Data.button1.label}
+                            </Button>
 
-                            <Link href={Data.button2.link} className="mil-link mil-muted mil-arrow-place">
-                                <span>{Data.button2.label}</span>
-                                <ArrowIcon />
-                            </Link>
+                            <Button link={Data.button1.link} type="link">
+                                {Data.button2.label}
+                            </Button>
 
                             <div className="mil-circle-text">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enableBackground="new 0 0 300 300" xmlSpace="preserve" className="mil-ct-svg mil-rotate" data-value="360">

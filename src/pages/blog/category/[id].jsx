@@ -1,10 +1,9 @@
-import Layouts from "@/src/ui/layouts/Layouts";
-import { getCategoryPosts } from "@library/posts";
-import { getAllCategoriesIds, getCategoryData, getSortedCategoriesData } from "@library/categories";
-import Date from '@library/date';
+import Layouts from "@/ui/layouts/Layouts";
+import { getCategoryPosts } from "@/library/posts";
+import { getAllCategoriesIds, getCategoryData, getSortedCategoriesData } from "@/library/categories";
+import Date from '@/library/date';
 import Link from "next/link";
-import PageBanner from "@/src/ui/components/PageBanner";
-import SubscribeSection from "@/src/ui/components/sections/Subscribe";
+import PageBanner from "@/ui/features/PageBanner";
 
 const PostsDetail = ( props ) => {
   
@@ -63,8 +62,6 @@ const PostsDetail = ( props ) => {
           </div>
       </section>
       {/* blog end */}
-
-      <SubscribeSection />
 
     </Layouts>
   );

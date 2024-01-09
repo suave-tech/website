@@ -1,7 +1,7 @@
 {
     "title1": "Unique <span class=\"mil-thin\">Ideas</span>",
     "title2": "For Your <span class=\"mil-thin\">Business.</span>",
-    "subtitle": "Professionals focused on helping your brand<br/> grow and move forward.",
+    "subtitle": "Focused on helping your brand<br/> grow and move forward.",
     "button": {
         "link": "/services",
         "label": "What we do"
@@ -9,23 +9,23 @@
     "items": [
         {
             "title": "Branding and <br>Identity Design",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-1"
+            "text": "Branding is more important than ever in this rapidly moving digital space.",
+            "link": "/services"
         },
         {
             "title": "Website Design <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-2"
+            "text": "Establish a powerful digital presence through a great website.",
+            "link": "/services"
         },
         {
             "title": "Advertising and <br>Marketing Campaigns",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-3"
+            "text": "Put your name out there for the world to also see your vision.",
+            "link": "/services"
         },
         {
             "title": "Creative Consulting <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-4"
+            "text": "Whatever your problem, we'll design effective solutions to surpass obstacles.",
+            "link": "/services"
         }
     ]
 }

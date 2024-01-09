@@ -1,17 +1,16 @@
 import { PER_PAGE } from './blog/page/[page]'
-import PaginatedBlog from '@/src/ui/components/PaginatedBlog'
-import Pagination from '@/src/ui/components/Pagination'
+import PaginatedBlog from '@/ui/features/PaginatedBlog'
+import Pagination from '@/ui/features/Pagination'
 import Link from "next/link";
 
-import PageBanner from "@/src/ui/components/PageBanner";
-import PopularPosts from "@/src/ui/components/sections/PopularPosts";
-import SubscribeSection from "@/src/ui/components/sections/Subscribe";
-import Layouts from "@/src/ui/layouts/Layouts";
+import PageBanner from "@/ui/features/PageBanner";
+import PopularPosts from "@/ui/views/PopularPosts";
+import Layouts from "@/ui/layouts/Layouts";
 
-import { getSortedCategoriesData } from "@library/categories";
-import { getPaginatedPostsData, getFeaturedPostsData } from "@library/posts";
+import { getSortedCategoriesData } from "@/library/categories";
+import { getPaginatedPostsData, getFeaturedPostsData } from "@/library/posts";
 
-import PopularsPostsData from "@data/sections/popular-posts.json";
+import PopularsPostsData from "@/data/sections/popular-posts.json";
 
 const Blog = ( { posts, totalPosts, currentPage, categories, popular } ) => {
   return (
@@ -54,8 +53,6 @@ const Blog = ( { posts, totalPosts, currentPage, categories, popular } ) => {
         </div>
       </section>
       {/* blog end */}
-
-      <SubscribeSection />
 
     </Layouts>
   );

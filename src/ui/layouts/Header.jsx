@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { useState } from "react";
-import AppData from "@data/app.json";
+import AppData from "@/data/app.json";
 import { useRouter } from 'next/router';
 
 import BackToTop from "./BackToTop";
 import Pentagon from "./icons/Pentagon";
+import Button from "../components/Button";
 
 const Header = ({ extraClass }) => {
   const [toggle, setToggle] = useState(false);
@@ -99,11 +100,11 @@ const Header = ({ extraClass }) => {
 
                                       <ul className="mil-menu-list">
                                           <li><Link href="/projects/project-1" className="mil-light-soft">PintSwap</Link></li>
+                                          <li><Link href="/projects/project-6" className="mil-light-soft">DataEarn</Link></li>
                                           <li><Link href="/projects/project-2" className="mil-light-soft">VMEX Finance</Link></li>
                                           <li><Link href="/projects/project-4" className="mil-light-soft">SimpleTalk AI</Link></li>
                                           <li><Link href="/projects/project-5" className="mil-light-soft">Transformation Factory</Link></li>
                                           <li><Link href="/projects/project-3" className="mil-light-soft">Raycon</Link></li>
-                                          <li><Link href="/projects/project-6" className="mil-light-soft">ZeroDAO</Link></li>
                                       </ul>
 
                                   </div>
@@ -121,22 +122,11 @@ const Header = ({ extraClass }) => {
                                   </div>
                               </div>
                               <div className="mil-divider mil-mb-60"></div>
-                              <div className="row justify-content-between">
+                              <div className="row justify-content-center">
 
-                                  <div className="col-lg-4 mil-mb-60">
-
-                                      <h6 className="mil-muted mil-mb-30">Canada</h6>
-
-                                      <p className="mil-light-soft mil-up">71 South Los Carneros Road, California <span className="mil-no-wrap">+51 174 705 812</span></p>
-
-                                  </div>
-                                  <div className="col-lg-4 mil-mb-60">
-
-                                      <h6 className="mil-muted mil-mb-30">Germany</h6>
-
-                                      <p className="mil-light-soft">Leehove 40, 2678 MC De Lier, Netherlands <span className="mil-no-wrap">+31 174 705 811</span></p>
-
-                                  </div>
+                                <Button link="/contact" className="w-fit">
+                                    Contact Us
+                                </Button>
                               </div>
                           </div>
                       </div>

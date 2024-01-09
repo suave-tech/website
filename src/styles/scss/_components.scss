@@ -398,6 +398,7 @@ menu
         transition: $t-md;
 
         & .mil-menu-right {
+            width: 100%;
             padding-bottom: 60px;
         }
 
@@ -1923,9 +1924,12 @@ footer
 ------------------------------------------- */
 
 .mil-footer-menu {
-    margin-bottom: 120px;
-
+    margin-bottom: 60px;
+    
     & ul {
+        display: flex;
+        gap: 2rem;
+
         & li {
             list-style-type: none;
             margin-bottom: 30px;
@@ -1957,10 +1961,6 @@ footer
                 }
             }
         }
-    }
-
-    @media screen and (max-width: 768px) {
-        margin-bottom: 60px;
     }
 }
 
