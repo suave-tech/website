@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./*"],
+      "@/common/*": ["./src/common/*"],
+      "@/ui/*": ["src/ui/*"],
+      "@/library/*": ["./src/lib/*"],
+      "@/data/*": ["./src/data/*"],
+    }
+  }
+}

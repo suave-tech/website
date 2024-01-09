@@ -1,0 +1,12 @@
+{
+    "title": "Tech <span class=\"mil-thin\">Reimagined.</span><br>Solutions <span class=\"mil-thin\">Redefined.</span>",
+    "description": "Suave Tech Solutions is a development shop experienced in web, automation, and blockchain. Our mission is to empower businesses through expert consulting and creative tech solutions.",
+    "button1": {
+        "link": "/services",
+        "label": "What we do"
+    },
+    "button2": {
+        "link": "/works",
+        "label": "View works"
+    }
+}
