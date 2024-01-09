@@ -7,7 +7,7 @@ import { Accordion } from "../common/utilits";
 
 import Link from "next/link";
 
-import { getServices } from "@library/services";
+import { getServices } from "@/library/services";
 
 import PricingSection from "@/ui/views/Pricing";
 import CallToActionSection from "@/ui/views/CallToAction";

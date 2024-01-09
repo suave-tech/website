@@ -2,7 +2,7 @@ import Layouts from "@/ui/layouts/Layouts";
 
 import Link from "next/link";
 
-import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@library/projects";
+import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@/library/projects";
 
 import PageBanner from "@/ui/components/PageBanner";
 import CallToActionSection from "@/ui/components/sections/CallToAction";
