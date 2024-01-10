@@ -40,10 +40,4 @@ gallery:
 
         - image: /img/works/4/3.jpg
           alt: "image"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/works/4/7.jpg
-          alt: "image"
 ---

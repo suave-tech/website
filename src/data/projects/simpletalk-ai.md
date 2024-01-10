@@ -32,8 +32,6 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/2/1.gif
-          alt: "image"
 
         - image: /img/works/2/2.jpg
           alt: "image"

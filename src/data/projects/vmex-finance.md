@@ -41,13 +41,4 @@ gallery:
 
         - image: /img/works/1/4.jpg
           alt: "image"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/works/1/6.jpg
-          alt: "image"
-
-        - image: /img/works/1/7.jpg
-          alt: "image"
 ---

@@ -33,24 +33,12 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/6/2.gif
+        - image: /img/works/6/3.jpg
           alt: "image"
 
         - image: /img/works/6/3.jpg
           alt: "image"
 
-        - image: /img/works/6/4.gif
-          alt: "image"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/works/6/6.jpg
-          alt: "image"
-
-        - image: /img/works/6/7.jpg
-          alt: "image"
-
-        - image: /img/works/6/8.jpg
+        - image: /img/works/6/3.jpg
           alt: "image"
 ---

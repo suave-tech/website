@@ -35,15 +35,9 @@ gallery:
         - image: /img/works/5/2.jpg
           alt: "image"
 
-        - image: /img/works/5/3.gif
+        - image: /img/works/5/2.jpg
           alt: "image"
 
         - image: /img/works/5/4.jpg
-          alt: "image"
-
-gallery2: 
-    enabled: 1
-    items:
-        - image: /img/works/5/7.gif
           alt: "image"
 ---
