@@ -1,10 +1,10 @@
 {
     "image": {
-        "url": "/img/photo/1.jpg",
+        "url": "/img/generic/conversation.svg",
         "alt": "img"
     },
     "avatar": {
-        "image": "/img/faces/customers/2.jpg",
+        "image": "/img/generic/programming.svg",
         "alt": "Founder"
     },
     "title": "About <span class=\"mil-thin\">Us</span>",

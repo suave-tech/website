@@ -29,8 +29,8 @@ const AboutSection = () => {
                                 <div className="mil-lines-place">
                                     <LinesIcon />
                                 </div>
-                                <div className="mil-up mil-img-frame" style={{"paddingBottom": "160%"}}>
-                                    <img src={Data.image.url} alt={Data.image.alt} className="mil-scale" data-value-1="1" data-value-2="1.2" />
+                                <div className="mil-up mil-img-frame" style={{"overflow": "visible"}}>
+                                    <img src={Data.image.url} alt={Data.image.alt} className="mil-scale" data-value-1="1" data-value-2="1.2" style={{ objectFit: 'contain' }}  />
                                 </div>
                             </div>
 

@@ -3,28 +3,28 @@
     "description": "At our agency, we have a unique approach to web design and development. <br/>We believe in creating in terms of user experience, functionality.",
     "items": [
         {
-            "title": "Tailored Designs for<br> Every Budget",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
+            "title": "Landing Pages for<br> Every Budget",
+            "text": "We'll craft a simple one-page website with great SEO to establish your digital presence.",
             "price": {
-                "value": "19",
+                "value": "800",
                 "symbol": "$"
             },
             "link": "/contact"
         },
         {
-            "title": "Tailored Designs for<br> Every Budget",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
+            "title": "Shopify Stores <br> with Unique Designs",
+            "text": "Regardless of what you're selling, we'll quickly set your store up so you can hit the ground running.",
             "price": {
-                "value": "29",
+                "value": "1200",
                 "symbol": "$"
             },
             "link": "/contact"
         },
         {
-            "title": "Unleashing the Beauty of Space <br> with Unique Designs",
-            "text": "Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.",
+            "title": "Chat Bots for<br> your Business Needs",
+            "text": "Live 24/7 customer support agents is a thing of the past. We'll build a chat bot to handle your needs.",
             "price": {
-                "value": "49",
+                "value": "1500",
                 "symbol": "$"
             },
             "link": "/contact"

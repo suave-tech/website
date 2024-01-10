@@ -8,35 +8,36 @@ short: "Our developer shop is a team of professionals focused on providing creat
 introTitle: <span class="mil-thin">Tech is complicated.</span> <br /> We make it simple.
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: Your <span class="mil-thin">vision.</span> <br> Our <span class="mil-thin">expertise.</span>
+  content: We believe client collaboration fuels innovation. We specialize in partnering closely with businesses to deliver pioneering solutions that propel growth and success. Our dedicated team thrives on understanding our clients' unique challenges, leveraging our expertise to craft tailored strategies and innovative approaches.
   button:
     link: /works
     label: View works
 
 list:
   items:
-    - label: "UX Audits"
+    - label: "Web / App Development"
       value: "
-        <p>A UX audit is a service that evaluates the user experience (UX) of a website. It involves analyzing the website's design, functionality, and content to identify areas of improvement that can enhance the user's overall experience.</p>
-        <p>During a UX audit, a team of UX experts will conduct a thorough review of the website and provide a comprehensive report that outlines specific recommendations for improving the website's usability, accessibility, and overall user experience.</p>
-        <p>The audit may cover various aspects of the website, such as navigation, layout, visual design, content structure, and mobile responsiveness. The goal is to identify any pain points or obstacles that users may encounter while browsing the website and provide actionable recommendations to improve their experience.</p>
-        <p>In summary, a UX audit can help website owners identify areas of improvement that can enhance their website's user experience and increase user engagement and satisfaction.</p>
+        <p>With a team of seasoned developers and designers, we orchestrate seamless online experiences that captivate audiences and drive tangible results for businesses of all sizes. From sleek and intuitive user interfaces to robust back-end architectures, our expertise spans the full spectrum of web development, ensuring that every website we create is not just a virtual space but a strategic asset that elevates your brand.</p>
+        <p>Our commitment goes beyond mere coding; it's about understanding your vision and bringing it to life with precision and creativity. We pride ourselves on delivering responsive, scalable, and secure websites that stand the test of time, coupled with ongoing support to keep your digital presence at the forefront of innovation.</p>
+        <p>Experience the difference with Suave Tech Solutions, where exceptional web development isn't just a service; it's a transformational journey toward online excellence.</p>
       "
 
-    - label: "Design thinking"
+    - label: "Automation Solutions"
       value: "
-      <p>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. It involves understanding the needs and perspectives of users, identifying and defining the problem, generating multiple possible solutions, prototyping and testing those solutions, and iterating based on feedback.</p>
-      <p>Design thinking encourages a human-centered approach to innovation and is often used in fields such as product design, user experience (UX) design, and business strategy to create user-centric and innovative solutions. It promotes a mindset that embraces experimentation, iteration, and continuous learning throughout the design process.</p>
+      <p>Automation is all around us. Explore the power of advanced technologies and tailored strategies to streamline processes, reduce manual efforts, and enhance productivity across industries. Whether it's automating repetitive tasks, optimizing workflows, or integrating complex systems, we excel in crafting custom automation solutions that elevate your operations to unprecedented levels of efficiency.</p>
+      <p>We understand that every business is unique, which is why we prioritize a collaborative approach. We work closely with our clients, comprehensively analyzing their needs and pain points to design and implement automation solutions that align perfectly with their objectives.</p>
       "
 
-    - label: "Wireframing"
+    - label: "Shopify Development"
       value: "
-      <p>Wireframing is a vital step in web design where a visual representation of a website's structure is created. It focuses on layout and user experience, using basic shapes and lines to outline elements like headers, menus, and content sections. Wireframes establish the website's architecture and functionality, facilitating communication between designers, developers, and clients. They serve as a blueprint for user-friendly websites, setting the foundation for design and development.</p>
+      <p>Enter the realm of seamless e-commerce experiences with Suave Tech Solutions where we understand the nuances of e-commerce success and prioritize client satisfaction.</p>
+      <p>From small businesses to enterprises, we're dedicated to delivering frictionless Shopify development services that transform your vision into a thriving online store, positioning you for success in the competitive digital marketplace.</p>
       "
 
-    - label: "Methodologies"
+    - label: "Consulting"
       value: "
-      <p>Libero quam alias tempora facilis necessitatibus quis officiis voluptatem architecto harum exercitationem quidem illum eligendi. Veniam non vitae, nemo dolor tempora, necessitatibus enim sapiente quam voluptas architecto minima omnis sequi aperiam aliquam vel quo reprehenderit, tempore tenetur. Architecto dolorem assumenda voluptas, odio nemo vero illo praesentium pariatur, ut perspiciatis, est itaque minus ratione vitae laboriosam molestiae.</p>
+      <p>From digital transformation roadmaps to technological architecture, we offer comprehensive guidance, empowering businesses to harness technology as a catalyst for success. Our consulting services span a wide spectrum, including IT strategy, cybersecurity, cloud solutions, and more, ensuring that every recommendation is customized to suit the specific needs and aspirations of our clients.</p>
+      <p>Embrace the future of your business with confidence and clarity, guided by the expertise and innovation of Suave Tech Solutions in the dynamic landscape of tech consulting.</p>
       "
 ---

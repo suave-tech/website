@@ -2,24 +2,25 @@
     "title1": "Unique <span class=\"mil-thin\">Ideas</span>",
     "title2": "For Your <span class=\"mil-thin\">Business.</span>",
     "subtitle": "Focused on helping your brand<br/> grow and move forward.",
+    "image": "/img/generic/engineer-team.svg",
     "button": {
         "link": "/services",
         "label": "What we do"
     },
     "items": [
         {
+            "title": "Website Design <br>and Development",
+            "text": "Establish a powerful digital presence through a great, SEO-driven website.",
+            "link": "/services"
+        },
+        {
+            "title": "Automation and <br>AI Solutions",
+            "text": "Speed up your business processes by removing small tasks with custom software.",
+            "link": "/services"
+        },
+        {
             "title": "Branding and <br>Identity Design",
             "text": "Branding is more important than ever in this rapidly moving digital space.",
-            "link": "/services"
-        },
-        {
-            "title": "Website Design <br>and Development",
-            "text": "Establish a powerful digital presence through a great website.",
-            "link": "/services"
-        },
-        {
-            "title": "Advertising and <br>Marketing Campaigns",
-            "text": "Put your name out there for the world to also see your vision.",
             "link": "/services"
         },
         {

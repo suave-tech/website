@@ -21,6 +21,7 @@ const PricingSection = () => {
                     <Link href={item.link} className="mil-price-card mil-choose mil-accent-cursor mil-up" key={`pricing-item-${key}`}>
                         <div className="row align-items-center">
                             <div className="col-lg-2">
+                                <small className="mil-muted mil-thin">Starting at</small>
                                 <div className="mil-price-number mil-mb-30">
                                     <span className="mil-muted mil-thin">{item.price.symbol}</span>
                                     <span className="mil-accent">{item.price.value}</span>

@@ -204,10 +204,10 @@ frame
 
     & .mil-frame-top {
         @media screen and (max-width: 1200px) {
-            height: 80px;
+            height: 70px;
             background-color: $dt-95;
             border-bottom: solid 1px $lt-10;
-            padding: 0 30px;
+            padding: 0 20px;
             backdrop-filter: blur(8px);
 
             & .mil-logo {

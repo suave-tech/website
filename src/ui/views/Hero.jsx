@@ -38,7 +38,7 @@ const Hero = () => {
                                 {Data.button1.label}
                             </Button>
 
-                            <Button link={Data.button1.link} type="link">
+                            <Button link={Data.button2.link} type="link">
                                 {Data.button2.label}
                             </Button>
 

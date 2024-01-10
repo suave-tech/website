@@ -99,25 +99,25 @@ const Header = ({ extraClass }) => {
                                       <h6 className="mil-muted mil-mb-30">Projects</h6>
 
                                       <ul className="mil-menu-list">
-                                          <li><Link href="/works/project-1" className="mil-light-soft">PintSwap</Link></li>
-                                          <li><Link href="/works/project-6" className="mil-light-soft">DataEarn</Link></li>
-                                          <li><Link href="/works/project-2" className="mil-light-soft">VMEX Finance</Link></li>
-                                          <li><Link href="/works/project-4" className="mil-light-soft">SimpleTalk AI</Link></li>
-                                          <li><Link href="/works/project-5" className="mil-light-soft">Transformation Factory</Link></li>
-                                          <li><Link href="/works/project-3" className="mil-light-soft">Raycon</Link></li>
+                                          <li><Link href="/works/pintswap" className="mil-light-soft">PintSwap</Link></li>
+                                          <li><Link href="/works/dataearn" className="mil-light-soft">DataEarn</Link></li>
+                                          <li><Link href="/works/vmex-finance" className="mil-light-soft">VMEX Finance</Link></li>
+                                          <li><Link href="/works/simpletalk-ai" className="mil-light-soft">SimpleTalk AI</Link></li>
+                                          <li><Link href="/works/transformation-factory" className="mil-light-soft">Transformation Factory</Link></li>
+                                          <li><Link href="/works/raycon" className="mil-light-soft">Raycon</Link></li>
                                       </ul>
 
                                   </div>
                                   <div className="col-lg-4 mil-mb-60">
 
-                                      <h6 className="mil-muted mil-mb-30">Useful links</h6>
+                                      {/* <h6 className="mil-muted mil-mb-30">Useful links</h6>
 
                                       <ul className="mil-menu-list">
                                           <li><a href="#." className="mil-light-soft">Privacy Policy</a></li>
                                           <li><a href="#." className="mil-light-soft">Terms and conditions</a></li>
                                           <li><a href="#." className="mil-light-soft">Cookie Policy</a></li>
                                           <li><a href="#." className="mil-light-soft">Careers</a></li>
-                                      </ul>
+                                      </ul> */}
 
                                   </div>
                               </div>
