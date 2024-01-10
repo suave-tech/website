@@ -9,7 +9,7 @@ const Footer = ( { extraClass } ) => {
   return (
     <footer className="mil-dark-bg">
         <div className="mi-invert-fix">
-            <div className="container mil-p-120-60">
+            <div className="container mil-p-60-60">
                 <div className="row justify-content-between">
                     <div className="col-lg-12">
                         <div className="row justify-content-end">
@@ -31,7 +31,7 @@ const Footer = ( { extraClass } ) => {
                 </div>
 
                 <div className="row justify-content-between flex-sm-row-reverse">
-                    <div className="col-lg-12 mil-mb-60">
+                    <div className="col-lg-12">
 
                         <div className="mil-vert-between">
                             {/* <div className="mil-mb-30">
