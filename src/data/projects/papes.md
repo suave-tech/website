@@ -36,8 +36,8 @@ gallery:
     enabled: 1
     items:
         - image: /img/works/papes/1.png
-          alt: "image"
+          alt: "Papes landing page"
 
         - image: /img/works/papes/2.png
-          alt: "image"
+          alt: "Papes coming soon page"
 ---

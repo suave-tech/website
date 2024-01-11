@@ -35,11 +35,11 @@ gallery:
     enabled: 1
     items:
         - image: /img/works/raycon/1.png
-          alt: "image"
+          alt: "Raycon home page"
 
         - image: /img/works/raycon/2.png
-          alt: "image"
+          alt: "Raycon products page"
 
         - image: /img/works/raycon/3.png
-          alt: "image"
+          alt: "Raycon announement page"
 ---

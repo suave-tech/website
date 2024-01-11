@@ -35,11 +35,11 @@ gallery:
     enabled: 1
     items:
         - image: /img/works/dataearn/1.png
-          alt: "image"
+          alt: "DataEarn landing preview explaining to users that they can own their data"
 
-        - image: /img/works/dataearn/2.jpg
-          alt: "image"
+        - image: /img/works/dataearn/2.png
+          alt: "DataEarn app home page where users can upload their data"
 
-        - image: /img/works/dataearn/3.jpg
-          alt: "image"
+        - image: /img/works/dataearn/3.png
+          alt: "DataEarn app cards page where users can see their data"
 ---

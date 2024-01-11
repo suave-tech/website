@@ -36,11 +36,11 @@ gallery:
     enabled: 1
     items:
         - image: /img/works/ttf/1.png
-          alt: "image"
+          alt: "Transformation Factory landing page"
 
         - image: /img/works/ttf/2.png
-          alt: "image"
+          alt: "Transformation Factory products page"
 
         - image: /img/works/ttf/3.png
-          alt: "image"
+          alt: "Transformation Factory announcement page"
 ---

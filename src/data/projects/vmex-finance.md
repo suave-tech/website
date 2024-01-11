@@ -35,12 +35,12 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/vmex/1.jpg
-          alt: "image"
+        - image: /img/works/vmex/1.png
+          alt: "VMEX Finance overview page where users can see protocol history"
 
-        - image: /img/works/vmex/2.jpg
-          alt: "image"
+        - image: /img/works/vmex/2.png
+          alt: "VMEX Finance staking page where users can earn rewards from staking"
 
-        - image: /img/works/vmex/3.jpg
-          alt: "image"
+        - image: /img/works/vmex/3.png
+          alt: "VMEX Finance deposit into strategy modal"
 ---

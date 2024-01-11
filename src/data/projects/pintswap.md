@@ -35,12 +35,12 @@ gallery:
     enabled: 1
     items:
         - image: /img/works/pintswap/1.png
-          alt: "image"
+          alt: "PintSwap landing page. PintSwap is a P2P OTC Orderbook DEX"
 
         - image: /img/works/pintswap/2.jpg
-          alt: "image"
+          alt: "PintSwap app create offer"
 
         - image: /img/works/pintswap/3.jpg
-          alt: "image"
+          alt: "PintSwap app show all available markets"
 
 ---
