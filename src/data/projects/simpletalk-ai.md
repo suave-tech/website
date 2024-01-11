@@ -1,7 +1,9 @@
 ---
 #preview
+id: 2
+slug: simpletalk-ai
 title: SimpleTalk AI
-image: /img/works/2.jpg
+image: /img/works/simpletalk/preview.jpg
 category: ARTIFICIAL INTELLIGENCE
 date: Consulting
 
@@ -33,12 +35,12 @@ gallery:
     enabled: 1
     items:
 
-        - image: /img/works/2/2.jpg
+        - image: /img/works/simpletalk/2.jpg
           alt: "image"
 
-        - image: /img/works/2/3.jpg
+        - image: /img/works/simpletalk/3.jpg
           alt: "image"
 
-        - image: /img/works/2/4.jpg
+        - image: /img/works/simpletalk/4.jpg
           alt: "image"
 ---

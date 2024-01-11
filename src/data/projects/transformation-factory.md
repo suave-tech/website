@@ -1,7 +1,9 @@
 ---
 #preview
+id: 7
+slug: transformation-factory
 title: Transformation Factory
-image: /img/works/6.jpg
+image: /img/works/ttf/preview.jpeg
 category: ECOMMERCE
 date: Development
 
@@ -33,12 +35,12 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/6/3.jpg
+        - image: /img/works/ttf/1.png
           alt: "image"
 
-        - image: /img/works/6/3.jpg
+        - image: /img/works/ttf/2.png
           alt: "image"
 
-        - image: /img/works/6/3.jpg
+        - image: /img/works/ttf/3.png
           alt: "image"
 ---

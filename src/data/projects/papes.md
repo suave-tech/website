@@ -1,27 +1,28 @@
 ---
 #preview
-id: 4
-slug: raycon
-title: Raycon Global
-image: /img/works/raycon/preview.jpg
-category: ECOMMERCE
-date: Consulting
+id: 5
+slug: papes
+title: Papes
+image: /img/works/papes/preview.png
+category: BLOCKCHAIN
+date: Development
 
 #params
 layout: "default"
 
 #full details
-demoLink: "https://rayconglobal.com/"
-introTitle: "Raycon <span class=\"mil-thin\">Global</span>"
+demoLink: "https://papes.xyz"
+introTitle: Papes <span class="mil-thin"></span>
+fullImage: /img/works/6/1.jpg
 details:
     - label: "Client"
-      value: "Raycon Global, LLC."
+      value: "Papes, A BAYC child company"
 
     - label: "Date"
-      value: "July 2023 - October 2023"
+      value: "August 2023 - October 2023"
 
     - label: "Services"
-      value: "Consulting"
+      value: "Development"
 
 description:
     enabled: 1
@@ -34,12 +35,9 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/raycon/1.png
+        - image: /img/works/papes/1.png
           alt: "image"
 
-        - image: /img/works/raycon/2.png
-          alt: "image"
-
-        - image: /img/works/raycon/3.png
+        - image: /img/works/papes/2.png
           alt: "image"
 ---

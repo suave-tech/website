@@ -1,7 +1,9 @@
 ---
 #preview
+id: 6
+slug: dataearn
 title: DataEarn
-image: /img/works/5.jpg
+image: /img/works/dataearn/preview.png
 category: WEB APP
 date: Development
 
@@ -32,12 +34,12 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/5/2.jpg
+        - image: /img/works/dataearn/1.png
           alt: "image"
 
-        - image: /img/works/5/2.jpg
+        - image: /img/works/dataearn/2.jpg
           alt: "image"
 
-        - image: /img/works/5/4.jpg
+        - image: /img/works/dataearn/3.jpg
           alt: "image"
 ---

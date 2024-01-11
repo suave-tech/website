@@ -1,7 +1,9 @@
 ---
 #preview
+id: 3
+slug: vmex-finance
 title: VMEX Finance
-image: /img/works/1.jpg
+image: /img/works/vmex/preview.jpg
 category: BLOCKCHAIN
 date: Development
 
@@ -11,7 +13,7 @@ layout: "default"
 #full details
 demoLink: "https://vmex.finance"
 introTitle: "VMEX <span class=\"mil-thin\">Finance</span>"
-fullImage: /img/works/1/1.jpg
+fullImage: /img/works/vmex/preview.jpg
 details:
     - label: "Client"
       value: "Volatile Labs, LLC."
@@ -33,12 +35,12 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/1/2.jpg
+        - image: /img/works/vmex/1.jpg
           alt: "image"
 
-        - image: /img/works/1/3.jpg
+        - image: /img/works/vmex/2.jpg
           alt: "image"
 
-        - image: /img/works/1/4.jpg
+        - image: /img/works/vmex/3.jpg
           alt: "image"
 ---

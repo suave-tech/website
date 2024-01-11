@@ -1,7 +1,9 @@
 ---
 #preview
+id: 1
+slug: pintswap
 title: PintSwap
-image: /img/works/3.jpg
+image: /img/works/pintswap/preview.png
 category: BLOCKCHAIN
 date: Development
 
@@ -32,13 +34,13 @@ description:
 gallery: 
     enabled: 1
     items:
-        - image: /img/works/3/1.jpg
+        - image: /img/works/pintswap/1.png
           alt: "image"
 
-        - image: /img/works/3/2.jpg
+        - image: /img/works/pintswap/2.jpg
           alt: "image"
 
-        - image: /img/works/3/3.jpg
+        - image: /img/works/pintswap/3.jpg
           alt: "image"
 
 ---
