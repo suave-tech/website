@@ -35,12 +35,9 @@ gallery:
     enabled: 1
     items:
 
-        - image: /img/works/simpletalk/1.jpg
+        - image: /img/works/simpletalk/1.png
           alt: "Simple talk landing page"
 
-        - image: /img/works/simpletalk/2.jpg
-          alt: "Simple talk landing page"
-
-        - image: /img/works/simpletalk/3.jpg
+        - image: /img/works/simpletalk/2.png
           alt: "Simple talk landing page"
 ---
