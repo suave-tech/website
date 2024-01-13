@@ -1,7 +1,8 @@
 import Link from "next/link"
 import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import SuccessSvg from "../layouts/icons/Success";
 
-const Button = ({ className, link, children, type, onClick, arrow = true }) => {
+const Button = ({ className, link, children, type, onClick, buttonType, loading, arrow = true }) => {
   function determineCss() {
     switch(type) {
       case 'link': return "mil-link mil-muted mil-arrow-place";
@@ -21,11 +22,32 @@ const Button = ({ className, link, children, type, onClick, arrow = true }) => {
     )
   }
   return (
-<button onClick={onClick} className={[determineCss(), className ?? ""].join(" ")}>
+<button onClick={onClick} className={[determineCss(), className ?? ""].join(" ")} type={buttonType}>
 <span>{children}</span>
 {arrow && (
-      <ArrowIcon />
-
+      (loading || children === 'Response received') ? 
+        <div style={{ 
+          padding: '0.6rem', 
+          backgroundColor: 'black', 
+          marginLeft: '1.5rem',
+          borderRadius: '100%',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'   
+        }}>
+          {children === 'Response received' ? (
+            <SuccessSvg />
+          ) : (
+            <div 
+            className="loading-spinner" 
+            style={{
+              backgroundColor: 'black',
+            }} 
+          /> 
+          )}
+        </div>
+        : 
+        <ArrowIcon />
       )}
 </button>
   )

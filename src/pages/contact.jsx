@@ -3,9 +3,19 @@ import Layouts from "@/ui/layouts/Layouts";
 import { Formik } from 'formik';
 import AppData from "@/data/app.json";
 
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import { useContactForm } from "../common/useContactForm";
+import Button from "../ui/components/Button";
 
 const Contact = () => {
+    const { 
+        validateValues, 
+        btnText, 
+        submitForm 
+    } = useContactForm(
+        'contactForm', 
+        'contactFormStatus', 
+        { email: '', name: '', message: '' }
+    )
   return (
     <Layouts>
         <PageBanner pageTitle={"Tell Us About Your Vision."} breadTitle={"Contact"} anchorLabel={"Send message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
@@ -16,52 +26,9 @@ const Contact = () => {
                 <h3 className="mil-center mil-up mil-mb-120">Let's <span className="mil-thin">Talk</span></h3>
 
                 <Formik
-                initialValues = {{ email: '', name: '', message: '' }}
-                validate = { values => {
-                    const errors = {};
-                    if (!values.email) {
-                        errors.email = 'Required';
-                    } else if (
-                        !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
-                    ) {
-                        errors.email = 'Invalid email address';
-                    }
-                    return errors;
-                }}
-                onSubmit = {( values, { setSubmitting } ) => {
-                    const form = document.getElementById("contactForm");
-                    const status = document.getElementById("contactFormStatus");
-                    const data = new FormData();
-
-                    data.append('name', values.name);
-                    data.append('email', values.email);
-                    data.append('message', values.message);
-
-                    fetch(form.action, {
-                        method: 'POST',
-                        body: data,
-                        headers: {
-                            'Accept': 'application/json'
-                        }
-                    }).then(response => {
-                        if (response.ok) {
-                            status.innerHTML = "Thanks for your submission!";
-                            form.reset()
-                        } else {
-                            response.json().then(data => {
-                                if (Object.hasOwn(data, 'errors')) {
-                                    status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
-                                } else {
-                                    status.innerHTML = "Oops! There was a problem submitting your form"
-                                }
-                            })
-                        }
-                    }).catch(error => {
-                        status.innerHTML = "Oops! There was a problem submitting your form"
-                    });
-
-                    setSubmitting(false);
-                }}
+                    initialValues = {{ email: '', name: '', message: '' }}
+                    validate = { values => validateValues(values) }
+                    onSubmit = {( values, { setSubmitting, resetForm }) => submitForm(values, { setSubmitting, resetForm }) }
                 >
                 {({
                     values,
@@ -73,7 +40,7 @@ const Contact = () => {
                     isSubmitting,
                     /* and other goodies */
                 }) => (
-                <form onSubmit={handleSubmit} id="contactForm" action={AppData.settings.formspreeURL} className="row align-items-center">
+                <form onSubmit={handleSubmit} id="contactForm" action={AppData.settings.discord} className="row align-items-center">
                     <div className="col-lg-6 mil-up">
                         <input 
                             type="text" 
@@ -111,10 +78,9 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-4">
                         <div className="mil-adaptive-right mil-up mil-mb-30">
-                            <button type="submit" className="mil-button mil-arrow-place">
-                                <span>Send message</span>
-                                <ArrowIcon />
-                            </button>
+                            <Button loading={isSubmitting} buttonType={"submit"}>
+                                {btnText}
+                            </Button>
                         </div>
                     </div>
                     <div className="form-status" id="contactFormStatus" />

@@ -1,6 +1,7 @@
 {
     "settings": {
         "siteName": "Suave Tech Solutions | Digital Solutions & Tech Consulting",
+        "discord": "https://discord.com/api/webhooks/1074037149009186846/5m5yt_559XnaYvz8_otM6aYXuxd8ec4WKQVP0WmPUUWT0PHjaitjWMQLv6GOYvBBaWj6",
         "formspreeURL": "https://formspree.io/f/your_api_key",
         "mailchimp": {
             "url": "",
