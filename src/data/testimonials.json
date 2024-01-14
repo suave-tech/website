@@ -3,21 +3,21 @@
     "subtitle": "Customer reviews are a valuable source <br>of information for both businesses and consumers.",
     "items": [
         {
-            "name": "jay_x8 | CEO",
-            "image": "/img/customers/1.jpg",
-            "role": "VMEX Finance",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
-        {
             "name": "librarian_max | CEO",
-            "image": "/img/customers/2.jpg",
+            "image": "/img/works/pintswap/logo.svg",
             "role": "PintSwap",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         },
         {
-            "name": "Alexandru Lazar | Creative Director",
-            "image": "/img/customers/3.jpg",
-            "role": "Raycon Global",
+            "name": "jay_x8 | CEO",
+            "image": "/img/works/vmex/logo.svg",
+            "role": "VMEX Finance",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "name": "Noah Fennell | CEO",
+            "image": "/img/works/dataearn/logo.svg",
+            "role": "DataEarn",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         }
     ]
