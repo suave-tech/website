@@ -25,10 +25,14 @@ details:
 
 description:
     enabled: 1
-    title: "Lorem ipsum dolor sit amet"
+    title: "Affordable consumer technology without sacrificing quality"
     content: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+      Raycon Global is an ecommerce brand that envisions a world in which the more access to reliable technology people have, the more people can spread happiness through a better every day. Raycon is a group of creatives, technologists, and operators who design everyday tech that people can rely on.
+      </p>
+      <p>
+      Ranging from headphones to air filters, Raycon Global provides a wide array of products users can choose from where they know they'll get the same luxurious quality without the high pricing. 
+      </p>
     "
 
 gallery: 

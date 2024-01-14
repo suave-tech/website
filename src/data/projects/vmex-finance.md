@@ -28,8 +28,12 @@ description:
     enabled: 1
     title: "Next-Generation Lending & Borrowing Protocol"
     content: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+      VMEX is a modular lending protocol that uses a risk isolated lending pool structure to achieve one simple goal: maximizing flexibility. Legacy lending protocols like Aave and Compound are no doubt great for low risk lending, but their design inherently limits their ability to support assets with a wide variety of risk profiles.
+      </p>
+      <p>
+      This has been observed with Aave’s recent governance decision to freeze volatile assets due to risk concerns. Instead of reducing risk by simply not supporting “higher risk” assets, we believe VMEX can mitigate risk with its isolated pool structure — and importantly by making risk clear to end users. VMEX’s structure also allows for experimentation with special purpose tranches and a suite of other novel features.
+      </p>
     "
 
 gallery: 

@@ -16,7 +16,7 @@ introTitle: Papes <span class="mil-thin"></span>
 fullImage: /img/works/6/1.jpg
 details:
     - label: "Client"
-      value: "Papes, A BAYC child company"
+      value: "Papes, A BAYC partner company"
 
     - label: "Date"
       value: "August 2023 - October 2023"
@@ -26,10 +26,14 @@ details:
 
 description:
     enabled: 1
-    title: "Lorem ipsum dolor sit amet"
+    title: "Merging Blockchain and Cannabis"
     content: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+      Papes merges premier cannabis products, collectible culture, and blockchain technology to build memorable experiences for casuals and connoisseurs alike.
+      </p>
+      <p>
+      Using blockchain's NFT technology, Papes provides a unique subscription-based offering to cannabis users. However, this is merely the beginning for Papes. Papes plans on becoming a brand that has a cult-like following using creative marketing solutions and exclusive member rights.
+      </p>
     "
 
 gallery: 

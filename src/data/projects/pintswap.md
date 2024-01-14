@@ -15,7 +15,7 @@ demoLink: "https://pintswap.exchange/"
 introTitle: "PintSwap <span class=\"mil-thin\">P2P Exchange</span>"
 details:
     - label: "Client"
-      value: "WaterLabs, LLC."
+      value: "Coldwater Labs, LLC."
 
     - label: "Date"
       value: "Febuary 2023 - Present"
@@ -25,10 +25,17 @@ details:
 
 description:
     enabled: 1
-    title: "Lorem ipsum dolor sit amet"
+    title: "A truly P2P OTC token swap exchange"
     content: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        Trade low-liquidity tokens without all the BS. With PintSwap's Telegram bot and web app, enter and exit lowcaps with ease. Features of trading with PintSwap include zero taxes, zero slippage, private and public trades, and more.
+      </p>
+      <p>
+        PintSwap has an orderbook like other exchanges, without the centralization. PintSwap's orderbook is made up of many peer's individual orderbooks empowering users to decide if they want everyone to see their trade or if they just want to create an OTC offer to be shared with someone.
+      </p>
+      <p>
+      PintSwap finds the best trade possible, even if it's not on their orderbook. With PintSwap's trading engine, the protocol quickly matches offers against open orders. If an OTC trade isn't available, the engine routes trades through exchange aggregator, so users still quickly execute trades at the best price and are not limited to PintSwap's orderbook.
+</p>
     "
 
 gallery: 
@@ -37,10 +44,10 @@ gallery:
         - image: /img/works/pintswap/1.png
           alt: "PintSwap landing page. PintSwap is a P2P OTC Orderbook DEX"
 
-        - image: /img/works/pintswap/2.jpg
+        - image: /img/works/pintswap/2.png
           alt: "PintSwap app create offer"
 
-        - image: /img/works/pintswap/3.jpg
+        - image: /img/works/pintswap/3.png
           alt: "PintSwap app show all available markets"
 
 ---

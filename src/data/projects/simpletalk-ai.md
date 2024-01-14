@@ -25,10 +25,14 @@ details:
 
 description:
     enabled: 1
-    title: "Lorem ipsum dolor sit amet"
+    title: "Automate your sales and customer service calls"
     content: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+      SimpleTalk AI enables automated customer service and sales calls using artificial intelligence, providing real-time service that can be integrated into any personalized dashboard and CRM. Applicable to any business vertical and easily integrates automated chat, emails, notes, notifications and much more. 
+      </p>
+      <p>
+      Transform inbound interactions with 24/7 to handle all your service inquiries and general questions, ensuring no call goes unanswered. SimpleTalk AI's integration capabilities mean every interaction is properly logged in your CRM, enhancing your customer experience and satisfaction
+      </p>
     "
 
 gallery: 

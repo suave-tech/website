@@ -26,10 +26,14 @@ details:
 
 description:
     enabled: 1
-    title: "Lorem ipsum dolor sit amet"
+    title: "Natural remedies for better health"
     content: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+      Sea Moss Transformation Factory is a health & nutrition ecommerce brand providing users with natural remedies to natural health issues. TTF is the culmination of The CEO's more than 10 years of battling health issues. He has used every disappointment, achievement, heartbreak, success, and learning moment to create the concept of TTF as a resource and inspiration for those trying to become their best selves.
+      </p>
+      <p>
+      The TTF website will become a depository of information, tools, support communities and products. TTF will become a place that will give everyone the tools they need to succeed on their own journeys.
+      </p>
     "
 
 gallery: 

@@ -25,10 +25,17 @@ details:
 
 description:
     enabled: 1
-    title: "Lorem ipsum dolor sit amet"
+    title: "The People's First Data Marketplace"
     content: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        Driven by the belief that data should be within the control of its creators, DataEarn have set out to transform the way data is accessed, protected, and even monetized. DataEarn is committed to empowering individuals worldwide, ensuring they have complete control over their memories, thoughts, and ideas.
+      </p>
+      <p>
+        In the ever-expanding world of data, DataEarn provides users with a product that enables transparency over where and how companies are using their data. By giving individuals ownership over their data, they can be in control. Data is one of the most valuable assets on Earth, yet users own 0% of it.
+      </p>
+      <p>
+        Protect your digital identity by opting-out and deleting your data from unwanted companies. Data privacy is a growing concern around the world. Be a part of the data revolution.
+      </p>
     "
 
 gallery: 
