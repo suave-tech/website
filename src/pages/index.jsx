@@ -7,9 +7,10 @@ import { getSortedPostsData } from "@/library/posts";
 import HeroSection from "@/ui/views/Hero"
 import AboutSection from "@/ui/views/About";
 import ServicesSection from "@/ui/views/Services";
+import CallToActionSection from "../ui/views/CallToAction";
 // import LatestPostsSection from "@/ui/views/LatestPosts";
 
-const TestimonialSlider = dynamic( () => import("@/ui/sliders/Testimonial"), { ssr: false } );
+// const TestimonialSlider = dynamic( () => import("@/ui/sliders/Testimonial"), { ssr: false } );
 
 const Home = (props) => {
   return (
@@ -17,7 +18,8 @@ const Home = (props) => {
       <HeroSection />
       <AboutSection />
       <ServicesSection />
-      <TestimonialSlider />
+      <CallToActionSection />
+      {/* <TestimonialSlider /> */}
       {/* <LatestPostsSection posts={props.posts} /> */}
     </Layouts>
   );
@@ -29,7 +31,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts: allPosts
+      posts: allPosts,
     }
   }
 }
