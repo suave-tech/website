@@ -1,9 +1,9 @@
-import PaginatedBlog from '@/ui/features/PaginatedBlog'
+import PaginatedBlog from '@/ui/views/PaginatedBlog'
 import Pagination from '@/ui/features/Pagination'
 import Link from "next/link";
 
 import PageBanner from "@/ui/features/PageBanner";
-import Layouts from "@/src/ui/base/Layout";
+import Layouts from "@/ui/base/Layout";
 
 import { getSortedCategoriesData } from "@/library/categories";
 import { getPaginatedPostsData } from "@/library/posts";

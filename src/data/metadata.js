@@ -1,11 +1,11 @@
 const Metadata = {
   title: "STS | Digital Solutions & Tech Consulting",
-  description: "Unlock the potential of your online business with our comprehensive web development, Shopify development, and automation solutions.",
+  description: "Work with Suave Tech Solutions to scale your online business with our comprehensive web development, Shopify development, and automation solutions.",
   canonical: "https://suavetech.solutions",
   openGraph: {
     url: 'https://suavetech.solutions',
     title: 'STS | Digital Solutions & Tech Consulting',
-    description: 'Unlock the potential of your online business with our comprehensive web development, Shopify development, and automation solutions.',
+    description: 'Work with Suave Tech Solutions to scale your online business with our comprehensive web development, Shopify development, and automation solutions.',
     images: [
       {
         url: 'https://suavetech.solutions/android-chrome-512x512.png',

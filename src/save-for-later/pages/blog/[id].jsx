@@ -1,4 +1,4 @@
-import Layouts from "@/src/ui/base/Layout";
+import Layouts from "@/ui/base/Layout";
 import { getAllPostsIds, getPostData, getRelatedPosts } from "@/library/posts";
 import Date from '@/library/date';
 import PageBanner from "@/ui/features/PageBanner";
