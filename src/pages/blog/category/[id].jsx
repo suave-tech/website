@@ -1,4 +1,4 @@
-import Layouts from "@/ui/layouts/Layouts";
+import Layouts from "@/src/ui/base/Layout";
 import { getCategoryPosts } from "@/library/posts";
 import { getAllCategoriesIds, getCategoryData, getSortedCategoriesData } from "@/library/categories";
 import Date from '@/library/date';

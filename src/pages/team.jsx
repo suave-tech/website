@@ -1,7 +1,11 @@
-import Layouts from "@/ui/layouts/Layouts";
+import Layouts from "@/ui/base/Layout";
 
 import PageBanner from "@/ui/features/PageBanner";
 import CallToActionSection from "@/ui/views/CallToAction";
+
+import { NextSeo } from 'next-seo';
+
+import Metadata from "@/data/metadata";
 
 const TeamData = [
     {

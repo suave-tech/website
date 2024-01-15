@@ -1,10 +1,15 @@
-import PageBanner from "@/ui/features/PageBanner";
-import Layouts from "@/ui/layouts/Layouts";
-import { Formik } from 'formik';
-import AppData from "@/data/app.json";
 
-import { useContactForm } from "../common/useContactForm";
-import Button from "../ui/components/Button";
+import { Formik } from 'formik';
+import { NextSeo } from 'next-seo';
+
+import AppData from "@/data/app.json";
+import Metadata from '@/data/metadata';
+
+import { useContactForm } from '@/hooks/contact-form';
+
+import PageBanner from "@/ui/features/PageBanner";
+import Layouts from "@/ui/base/Layout";
+import Button from "@/ui/components/Button";
 
 const Contact = () => {
     const { 
@@ -17,6 +22,12 @@ const Contact = () => {
         { email: '', name: '', message: '' }
     )
   return (
+    <>
+              <NextSeo
+  title="STS | Contact Us"
+  description="Looking to unlock the potential of your online business? Contact or book a call with us today and learn about how we can help you succeed."
+      {...Metadata}
+    />
     <Layouts>
         <PageBanner pageTitle={"Tell Us About Your Vision."} breadTitle={"Contact"} anchorLabel={"Send message"} anchorLink={"#contact"} paddingBottom={1} align={"center"} />
 
@@ -91,6 +102,8 @@ const Contact = () => {
         </section>
         {/* contact form end */}    
     </Layouts>
+    </>
+
   );
 };
 export default Contact;

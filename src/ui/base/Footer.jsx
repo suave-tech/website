@@ -1,6 +1,6 @@
 import Link from "next/link";
 import AppData from "@/data/app.json";
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/src/ui/icons/Arrow";
 import { useRouter } from 'next/router';
 
 const Footer = ( { extraClass } ) => {

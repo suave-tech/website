@@ -1,19 +1,17 @@
-import Layouts from "@/ui/layouts/Layouts";
-import PageBanner from "@/ui/features/PageBanner";
+
 
 import { useEffect } from "react";
-
-import { Accordion } from "../common/utilits";
-
 import Link from "next/link";
+import { NextSeo } from 'next-seo';
 
+import Metadata from "@/data/metadata";
+import { Accordion } from "@/utils/ui-helpers";
 import { getServices } from "@/library/services";
 
+import Layouts from "@/ui/base/Layout";
+import PageBanner from "@/ui/features/PageBanner";
 import PricingSection from "@/ui/views/Pricing";
 import CallToActionSection from "@/ui/views/CallToAction";
-import Button from "../ui/components/Button";
-
-
 
 const Services = ( { data: servicesData } ) => {
   useEffect(() => {
@@ -21,6 +19,12 @@ const Services = ( { data: servicesData } ) => {
   }, []);
 
   return (
+    <>
+                  <NextSeo
+  title="STS | Our Services"
+  description="Learn how Suave Tech Solutions can help your scale your online business. We can build anything from shopify development to telegram bots to AI solutions."
+      {...Metadata}
+    />
     <Layouts>
       <PageBanner 
         pageTitle={servicesData.introTitle} 
@@ -74,6 +78,7 @@ const Services = ( { data: servicesData } ) => {
       <CallToActionSection />
 
     </Layouts>
+    </>
   );
 };
 export default Services;

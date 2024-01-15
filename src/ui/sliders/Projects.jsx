@@ -1,12 +1,12 @@
-import { SliderProps } from "@/common/sliderProps";
+import { SliderProps } from "@/src/utils/slider-props";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { ScrollAnimation } from "@/common/scrollAnims";
+import { ScrollAnimation } from "@/src/utils/scroll-animations";
 import { useEffect } from "react";
 
 import Link from "next/link";
 
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
-import Pentagon from "@/ui/layouts/icons/Pentagon";
+import ArrowIcon from "@/src/ui/icons/Arrow";
+import Pentagon from "@/src/ui/icons/Pentagon";
 
 const ProjectsSlider = ( { projects } ) => {
     useEffect(() => {

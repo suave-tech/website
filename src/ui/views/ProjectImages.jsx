@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SliderProps } from "@/common/sliderProps";
+import { SliderProps } from "@/src/utils/slider-props";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ImageView from "@/ui/features/ImageView";
 

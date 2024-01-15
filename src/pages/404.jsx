@@ -1,13 +1,20 @@
-import Layouts from "@/ui/layouts/Layouts";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
-import Pentagon from "@/ui/layouts/icons/Pentagon";
+import Metadata from "@/data/metadata";
+
+import ArrowIcon from "@/ui/icons/Arrow";
+import Pentagon from "@/ui/icons/Pentagon";
+import Layouts from "@/ui/base/Layout";
 
 const E404 = () => {
   return (
+    <>
+                  <NextSeo
+  title="STS | Page Not Found"
+      {...Metadata}
+    />
     <Layouts noFooter>
-      {/* 404 */}
       <div className="mil-404-banner mil-dark-bg">
           <div className="mil-animation-frame">
               <div className="mil-animation mil-position-4 mil-scale" data-value-1="9" data-value-2="1.4" style={{"right": "40%"}}>
@@ -31,8 +38,8 @@ const E404 = () => {
               </div>
           </div>
       </div>
-      {/* 404 end */}
     </Layouts>
+    </>
   );
 };
 export default E404;

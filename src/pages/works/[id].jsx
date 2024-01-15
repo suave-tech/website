@@ -1,7 +1,10 @@
-import Layouts from "@/ui/layouts/Layouts";
 
+import { NextSeo } from "next-seo";
+
+import Metadata from "@/data/metadata";
 import { getSortedProjectsData, getAllProjectsIds, getProjectData } from "@/library/projects";
 
+import Layouts from "@/ui/base/Layout";
 import PageBanner from "@/ui/features/PageBanner";
 import CallToActionSection from "@/ui/views/CallToAction";
 import ProjectDefault from "@/ui/views/ProjectDefault";
@@ -49,14 +52,20 @@ const ProjectDetail = ( props ) => {
   }
 
   return (
+    <>
+                  <NextSeo
+  title={`STS | Works | ${postData.title}`}
+  description={`See how Suave Tech Solution helped ${postData.title}. ${postData.description.title}`}
+      {...Metadata}
+    />
+
     <Layouts>
       <PageBanner pageTitle={postData.introTitle} breadTitle={postData.title} anchorLabel={"Read more"} anchorLink={"#project"} />
-
       {renderView()}
-
       <CallToActionSection />
-
     </Layouts>
+    </>
+
   );
 };
 export default ProjectDetail;

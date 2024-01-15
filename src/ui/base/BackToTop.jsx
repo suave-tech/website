@@ -1,4 +1,4 @@
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/src/ui/icons/Arrow";
 
 const BackToTopModule = () => {
     return (

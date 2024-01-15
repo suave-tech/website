@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import { ScrollAnimation } from "../../common/scrollAnims";
+import { ScrollAnimation } from "../../utils/scroll-animations";
 //import { PreloaderAnimation } from "../common/preloader";
-import { CursorAnimation } from "../../common/cursor";
-import { AnchorSscroll } from "../../common/utilits";
-import { CurrentPageLabel } from "../../common/utilits";
+import { CursorAnimation } from "../../utils/cursor";
+import { AnchorScroll } from "../../utils/ui-helpers";
+import { CurrentPageLabel } from "../../utils/ui-helpers";
 
 import Footer from "./Footer";
 import Header from "./Header";
@@ -23,7 +23,7 @@ const Layouts = ({
     //PreloaderAnimation();
     ScrollAnimation();
     CursorAnimation();
-    AnchorSscroll();
+    AnchorScroll();
     CurrentPageLabel();
   }, []);
 

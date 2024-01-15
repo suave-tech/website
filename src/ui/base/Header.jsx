@@ -4,7 +4,7 @@ import AppData from "@/data/app.json";
 import { useRouter } from 'next/router';
 
 import BackToTop from "./BackToTop";
-import Pentagon from "./icons/Pentagon";
+import Pentagon from "../icons/Pentagon";
 import Button from "../components/Button";
 
 const Header = ({ extraClass }) => {

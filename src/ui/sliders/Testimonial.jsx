@@ -1,8 +1,8 @@
-import { SliderProps } from "@/common/sliderProps";
+import { SliderProps } from "@/src/utils/slider-props";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Data from '@/data/testimonials';
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/src/ui/icons/Arrow";
 
 const TestimonialSlider = () => {
   return (

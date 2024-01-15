@@ -5,7 +5,7 @@ import Link from "next/link";
 
 import PageBanner from "@/ui/features/PageBanner";
 import PopularPosts from "@/ui/views/PopularPosts";
-import Layouts from "@/ui/layouts/Layouts";
+import Layouts from "@/src/ui/base/Layout";
 
 import { getSortedCategoriesData } from "@/library/categories";
 import { getPaginatedPostsData, getFeaturedPostsData } from "@/library/posts";

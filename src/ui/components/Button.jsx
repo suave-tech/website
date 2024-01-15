@@ -1,6 +1,6 @@
 import Link from "next/link"
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
-import SuccessSvg from "../layouts/icons/Success";
+import ArrowIcon from "@/src/ui/icons/Arrow";
+import SuccessSvg from "../icons/Success";
 
 const Button = ({ className, link, children, type, onClick, buttonType, loading, arrow = true }) => {
   function determineCss() {

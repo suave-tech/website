@@ -1,7 +1,7 @@
 import Data from "@/data/sections/services.json";
 import Link from "next/link";
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
-import Pentagon from "@/ui/layouts/icons/Pentagon";
+import ArrowIcon from "@/src/ui/icons/Arrow";
+import Pentagon from "@/src/ui/icons/Pentagon";
 
 const ServicesSection = () => {
   return (

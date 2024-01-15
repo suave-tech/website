@@ -2,8 +2,9 @@
   "compilerOptions": {
     "paths": {
       "@/*": ["./*"],
-      "@/common/*": ["./src/common/*"],
-      "@/ui/*": ["src/ui/*"],
+      "@/utils/*": ["./src/utils/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/ui/*": ["./src/ui/*"],
       "@/library/*": ["./src/lib/*"],
       "@/data/*": ["./src/data/*"],
     }

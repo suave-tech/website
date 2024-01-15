@@ -1,7 +1,7 @@
 import Data from "@/data/sections/popular-posts.json";
 import Date from '@/library/date';
 import Link from "next/link";
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/src/ui/icons/Arrow";
 
 const PopularPostsSection = ( { posts } ) => {
     

@@ -1,4 +1,4 @@
-export const AnchorSscroll = () => {
+export const AnchorScroll = () => {
     // anchor scroll
     const links = document.querySelectorAll('a[href^="#"]');
 

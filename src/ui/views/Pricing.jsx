@@ -2,7 +2,7 @@ import React from "react";
 import Data from "@/data/sections/pricing.json";
 import Link from "next/link";
 
-import ArrowIcon from "@/ui/layouts/icons/Arrow";
+import ArrowIcon from "@/src/ui/icons/Arrow";
 
 const PricingSection = () => {
     

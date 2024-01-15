@@ -1,5 +1,5 @@
 import Data from "@/data/sections/about.json";
-import LinesIcon from "@/ui/layouts/icons/Lines";
+import LinesIcon from "@/src/ui/icons/Lines";
 
 const AboutSection = () => {
     return (
