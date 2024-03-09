@@ -96,15 +96,15 @@ const Header = ({ extraClass }) => {
                               <div className="row">
                                   <div className="col-lg-8 mil-mb-60">
 
-                                      <h6 className="mil-muted mil-mb-30">Projects</h6>
+                                      <h6 className="mil-muted mil-mb-30">Featured Projects</h6>
 
                                       <ul className="mil-menu-list">
+                                          <li><Link href="/works/sandshrew" className="mil-light-soft">Sandshrew</Link></li>
+                                          <li><Link href="/works/layer-1-foundation" className="mil-light-soft">Layer 1 Foundation</Link></li>
                                           <li><Link href="/works/pintswap" className="mil-light-soft">PintSwap</Link></li>
-                                          <li><Link href="/works/dataearn" className="mil-light-soft">DataEarn</Link></li>
                                           <li><Link href="/works/vmex-finance" className="mil-light-soft">VMEX Finance</Link></li>
                                           <li><Link href="/works/simpletalk-ai" className="mil-light-soft">SimpleTalk AI</Link></li>
                                           <li><Link href="/works/transformation-factory" className="mil-light-soft">Transformation Factory</Link></li>
-                                          <li><Link href="/works/raycon" className="mil-light-soft">Raycon</Link></li>
                                       </ul>
 
                                   </div>
