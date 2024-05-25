@@ -1,0 +1,55 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/21.7.3/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js
+
+PATH: 
+  /opt/anaconda3/bin:/opt/anaconda3/condabin:/opt/homebrew/sbin:/opt/homebrew/bin:/Users/angellolazar/.nvm/versions/node/v18.19.0/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/angellolazar/.cargo/bin:/Users/angellolazar/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.7.3
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOSPC: no space left on device, write
+
+npm manifest: 
+  {
+    "name": "ashley-nextjs",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "postbuild": "next-sitemap"
+  
+    },
+    "dependencies": {
+      "date-fns": "^2.30.0",
+      "formik": "^2.4.2",
+      "gray-matter": "^4.0.3",
+      "gsap": "^3.11.5",
+      "next": "13.4.3",
+      "next-seo": "^6.4.0",
+      "next-sitemap": "^4.2.3",
+      "parallax-js": "^3.1.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "react-hook-form": "^7.49.3",
+      "remark": "^14.0.3",
+      "remark-html": "^15.0.2",
+      "sass": "^1.49.7",
+      "swiper": "^9.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
